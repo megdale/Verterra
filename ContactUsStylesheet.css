@@ -1,0 +1,13 @@
+/* CSS Stylesheet */
+
+div.Anchor{
+	top: -220px;
+	position: relative;
+}
+
+#text{
+	padding: 35px;
+	padding-left: 40px;
+	font-size: 30px;
+
+}
