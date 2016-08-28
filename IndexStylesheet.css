@@ -1,0 +1,87 @@
+/* CSS Stylesheet*/
+
+body{
+	background-image: url("BodyBackground.JPG");
+	margin-top: 200px;
+	margin-bottom: 0px;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+div#fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:url("HeaderBackground.JPG");
+	background-repeat: repeat-x;
+	height: 200px;
+	padding: 80px;
+}
+div#fixedfooter {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#68bc45;
+	background:#333;
+	padding:10px;
+	font-style: italic;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+a{
+	color: #68bc45;
+}
+
+a:visited{
+	color: #68bc45;
+}
+
+a:hover{
+	color: #c0d72f; 
+}
+
+h1{
+	font-family: Segoe UI Semibold;
+	text-align: center;
+	text-decoration: underline;
+	color: #447b2d;
+}
+
+#IntroText{
+	text-align: justify;
+}
+
+
+#PageContent{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#PageContent img{
+	width: 100%;
+}
+
+#VideoContent{
+	margin: 0 auto;
+
+}
+
+#Buttons{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#ServicesButton{
+	width: 100%; height: auto;
+	display: inline-block;
+}
+
+
+.ButtonContainer {
+	display: flex;
+	justify-content: space-between;
+}

@@ -1,0 +1,28 @@
+/* CSS Stylesheet */
+
+#Top{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+}
+
+div.Anchor{
+	top: -220px;
+	position: relative;
+}
+
+#HomeButton{
+	margin-top: 200px;
+	width: 20px;
+	height: 20px;
+}
+
+ol li{
+	color: #2b4e1d;
+	font-wight: bold;
+}
+
+ol li span{
+	color: green;
+}

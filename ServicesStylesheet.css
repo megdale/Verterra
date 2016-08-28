@@ -1,0 +1,36 @@
+/* CSS Stylesheet */
+
+#ServicesList{
+	text-align: left;
+}
+
+#SelectionList{
+	font-size: 32px;
+	font-weight: bold;
+	color: #68bc45; 
+	text-align: center;
+	text-decoration: none;
+}
+
+#Top{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+}
+
+#HomeButton{
+	margin-top: 200px;
+	width: 20px;
+	height: 20px;
+}
+
+
+div.Anchor{
+	top: -220px;
+	position: relative;
+}
+
+.Alphabet{
+	text-decoration: none;
+}
