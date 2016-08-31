@@ -65,11 +65,6 @@ h1{
 	width: 100%;
 }
 
-#VideoContent{
-	margin: 0 auto;
-
-}
-
 #Buttons{
 	margin-left: 15%;
 	margin-right: 15%;
@@ -84,4 +79,9 @@ h1{
 .ButtonContainer {
 	display: flex;
 	justify-content: space-between;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
 }
