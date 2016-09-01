@@ -11,3 +11,8 @@ div.Anchor{
 	font-size: 20px;
 
 }
+
+th {
+    text-align: left;
+    font-size: 26px;
+}

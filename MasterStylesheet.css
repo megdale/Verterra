@@ -91,3 +91,7 @@ h3{
 	display: flex;
 	justify-content: space-between;
 }
+
+.ButtonImg{
+    width: 90%;
+}
