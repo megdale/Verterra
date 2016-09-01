@@ -4,24 +4,6 @@
 	<link rel = "stylesheet"
 	type = "text/css"
 	href = "IndexStylesheet.css" />
-
-     <script>
-    function init() {
-      enableVideoClicks();
-    }
-
-    function enableVideoClicks() {
-      var videos = document.getElementsByTagName('video') || [];
-      for (var i = 0; i < videos.length; i++) {
-        // TODO: use attachEvent in IE
-        videos[i].addEventListener('click', function(videoNode) {
-          return function() {
-            videoNode.play();
-          };
-        }(videos[i]));
-      }
-    }
-  </script>
     
 </head>
 
@@ -33,7 +15,7 @@
 	<p id="IntroText">Verterra is a leader in <b><i>ecological engineering</i></b> theory and practice. Verterra delivers <b><i>land, water and vegetation management solutions</i></b>, turning risk into value for organisations seeking positive economic, environmental and community outcomes. We apply scientific knowledge of ecosystems and practical experience in partnership with our clients.</p>
 	<br>
 	
-         <video src="Video.mp4" width="600" height="auto" controls></video>
+<video controls src="Video.mp4" width="100%" poster="Poster.jpg" onclick="this.play();"/>
 
 	</div>
     
