@@ -16,7 +16,7 @@ div#fixedheader {
 	background:url("HeaderBackground.JPG");
 	background-repeat: repeat-x;
 	height: 200px;
-	padding: 95px;
+	padding: 80px;
 }
 div#fixedfooter {
 	position:fixed;
